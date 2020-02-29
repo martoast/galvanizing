@@ -1,0 +1,161 @@
+<template>
+  <section
+    id="projects"
+    class="pt-5 mb-n5"
+  >
+    <heading>Our Projects</heading>
+
+    <v-slide-group
+      v-model="model"
+      show-arrows
+      center-active
+      mandatory
+    >
+      <v-slide-item
+        v-for="(project, i) of projects"
+        :key="i"
+        v-slot:default="{ active, toggle }"
+      >
+        <v-card
+          :color="active ? 'primary' : 'grey lighten-1'"
+          class="ma-3"
+          :img="project.img"
+          height="300"
+          width="300"
+          flat
+          @click="toggle"
+        >
+          <v-fade-transition>
+            <v-overlay
+              v-if="active"
+              color="primary"
+              absolute
+            />
+          </v-fade-transition>
+        </v-card>
+      </v-slide-item>
+    </v-slide-group>
+
+    <!-- <v-expand-transition>
+      <v-sheet
+        v-if="model != null"
+        color="grey lighten-4"
+        tile
+      >
+        <v-scroll-y-transition mode="out-in">
+          <v-container
+            :key="model"
+            py-5
+            mx-auto
+          >
+            <v-row
+              align="center"
+              justify="center"
+              class="fill-height"
+            >
+              <v-col
+                cols="12"
+                md="6"
+                class="text-left mb-4"
+              >
+                <h3 class="headline mb-3">
+                  Project {{ model + 1 }}
+                </h3>
+                <p class="mb-0">
+                  {{project[model].description}}
+                </p>
+              </v-col>
+              <v-col
+                cols="12"
+                md="6"
+              >
+                <v-card elevation="24">
+                  <v-img
+                    :src="project[model].img"
+                    height="300"
+                  />
+                </v-card>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-scroll-y-transition>
+      </v-sheet>
+    </v-expand-transition> -->
+  </section>
+</template>
+
+<script>
+export default {
+  metaInfo: {
+    title: "Projects",
+    meta: [
+      {
+        name: "description",
+        content: "Customized vue-cli templates for Vue and Vuetify"
+      }
+    ]
+  },
+
+  components: {
+    Heading: () => import("@/components/Heading")
+  },
+
+  data: () => ({
+    model: 0,
+    projects: [
+      {
+        img:
+          "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+        description: "Lorem Ipsum asdasdasdasd"
+      },
+      {
+        img:
+          "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+        description: "Lorem Ipsum asdasdasdasd"
+      },
+      {
+        img:
+          "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+        description: "Lorem Ipsum asdasdasdasd"
+      },
+      {
+        img:
+          "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+        description: "Lorem Ipsum asdasdasdasd"
+      },
+      {
+        img:
+          "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+        description: "Lorem Ipsum asdasdasdasd"
+      },
+      {
+        img:
+          "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+        description: "Lorem Ipsum asdasdasdasd"
+      }
+    ],
+    images: [
+      "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+      "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+      "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+      "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+      "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+      "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg"
+    ],
+    descriptions: [
+      "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+      "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+      "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+      "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+      "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg",
+      "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg"
+    ]
+  })
+};
+</script>
+
+<style lang="sass">
+  #projects
+    .v-slide-group__content
+      justify-content: center
+</style>
