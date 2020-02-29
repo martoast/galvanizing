@@ -1,7 +1,7 @@
 <template>
   <v-alert
     class="mt-n5"
-    color="primary"
+    color="rgb(2,63,133)"
     dark
     dense
     tile
@@ -17,9 +17,7 @@
           </h2>
         </v-col>
         <v-col class="shrink">
-          <v-btn
-            outlined
-          >
+          <v-btn outlined>
             Get a Quote
           </v-btn>
         </v-col>

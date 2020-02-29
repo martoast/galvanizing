@@ -80,11 +80,11 @@
 
     <v-container
       id="why-us"
-      class="px-3 py-12 mb-n9 grey lighten-3"
+      class="px-0 py-12 mb-n9 grey lighten-3"
       fluid
       tag="section"
     >
-      <heading>Subscribe to our <span class="primary--text">Newsletter</span></heading>
+      <heading>Get a Quote <span class="primary--text">Today</span></heading>
 
       <v-row justify="center">
         <v-col
@@ -103,7 +103,7 @@
           >
             <template v-slot:append>
               <v-btn color="primary">
-                Subscribe
+                send
               </v-btn>
             </template>
           </v-text-field>

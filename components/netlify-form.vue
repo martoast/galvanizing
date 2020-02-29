@@ -73,7 +73,7 @@
                 <v-btn
                   type="submit"
                   value="Send message"
-                  color="success"
+                  color="primary"
                 >Send</v-btn>
               </v-col>
 

@@ -5,8 +5,9 @@
     tile
   >
     <v-img
-      src="https://web.distran.com/hs-fs/hub/48397/file-14362921-jpg/images/poles_in_kettle_1.jpg"
-      gradient="to top, rgba(171,184,193,1), rgba(226,42,27,1)"
+      src="https://galco.ie/wp-content/uploads/2016/08/Hot-dip-galvanizing-in-action.jpg"
+      aspect-ratio="4.0"
+      gradient="to top, rgba(160, 90, 70, .85), rgba(30, 40, 30, .85)"
       height="100%"
     >
 
@@ -25,7 +26,7 @@
               v-text="title"
             />
             <div
-              class="title font-weight-light"
+              class="title font-weight-light "
               v-text="subtitle"
             />
           </v-col>

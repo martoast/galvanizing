@@ -6,6 +6,7 @@
       :hide-on-scroll="$vuetify.breakpoint.smAndDown"
       app
       elevate-on-scroll
+      dark
     >
       <VuetifyLogo />
       <v-spacer />
