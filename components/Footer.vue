@@ -40,8 +40,9 @@
             md="6"
           >
             <a
+              class="transition-swing"
               href="#"
-              v-text="category"
+              v-text="c"
             />
           </v-col>
         </v-row>
@@ -76,9 +77,9 @@ export default {
 </script>
 
 <style lang="sass">
-  .v-application .v-footer
-    ul
-      list-style-type: none
+.v-application .v-footer
+  ul
+    list-style-type: none
 
     a
       color: white

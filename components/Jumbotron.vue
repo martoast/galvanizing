@@ -22,16 +22,49 @@
           >
             <h1
               :class="$vuetify.breakpoint.smAndUp ? 'display-3' : 'display-2'"
-              class="mb-2"
+              class="mb-2 font-italic"
               v-text="title"
             />
             <div
-              class="title font-weight-light "
+              class="title font-weight-light font-italic "
               v-text="subtitle"
             />
           </v-col>
+
         </v-slide-x-transition>
       </v-container>
+      <div class="py-4" />
+
+      <v-row
+        class="ma-0"
+        justify="center"
+        justify-md="start"
+      >
+        <v-btn
+          class="mr-md-3 my-2"
+          color="white"
+          href="#pricing"
+          large
+          min-width="175"
+          outlined
+          rounded
+          @click.prevent="$vuetify.goTo('#pricing')"
+        >
+          Learn More
+        </v-btn>
+
+        <v-btn
+          class="text--primary my-2"
+          color="white"
+          href="#try-it"
+          large
+          min-width="175"
+          rounded
+          @click.prevent="$vuetify.goTo('#try-it')"
+        >
+          Sign up
+        </v-btn>
+      </v-row>
     </v-img>
     <GetAQuote />
   </v-sheet>

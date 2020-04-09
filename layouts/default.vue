@@ -2,7 +2,10 @@
   <v-app dark>
 
     <AppBar />
-    <Jumbotron />
+
+    <Hero />
+
+    <!-- <Jumbotron /> -->
     <v-content>
 
       <v-container>
@@ -18,11 +21,14 @@
 import Jumbotron from "~/components/Jumbotron.vue";
 import AppBar from "~/components/AppBar.vue";
 import Footer from "~/components/Footer.vue";
+import Hero from "~/components/Hero.vue";
+
 export default {
   components: {
     Jumbotron,
     AppBar,
-    Footer
+    Footer,
+    Hero
   },
   data() {
     return {

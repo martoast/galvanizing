@@ -6,7 +6,10 @@
       class="py-5"
       tag="section"
     >
-      <heading>Services</heading>
+      <SectionHeader
+        header="shit"
+        sub-header="WE OFFER YOU"
+      />
 
       <v-row>
         <v-col
@@ -21,9 +24,12 @@
             outlined
             max-width="100%"
           >
-            <v-img :src="feature.src" />
+            <v-img
+              :src="feature.src"
+              height="200"
+            />
             <v-card-title
-              class="align-start"
+              class="align-center"
               style="min-height: 88px;"
               v-text="feature.title"
             />
@@ -31,10 +37,14 @@
               class="pb-5 pt-3"
               v-text="feature.text"
             />
+            <v-btn>Explore Service</v-btn>
           </v-card>
         </v-col>
       </v-row>
     </v-container>
+    <section>
+      <VideoSheet />
+    </section>
 
     <v-container
       id="testimonials"
@@ -132,7 +142,9 @@ export default {
   components: {
     Heading: () => import("@/components/Heading"),
     Testimonial: () => import("@/components/Testimonial"),
-    NetlifyForm: () => import("@/components/netlify-form")
+    NetlifyForm: () => import("@/components/netlify-form"),
+    SectionHeader: () => import("@/components/SectionHeader"),
+    VideoSheet: () => import("@/components/VideoSheet")
   },
 
   data: () => ({
@@ -144,7 +156,7 @@ export default {
     },
     features: [
       {
-        title: "Award-winning architecture",
+        title: "Hot drip galvanizing",
         text:
           "Every achievement begins with a vision. It is built on a foundation of creative concepts and dreams to become something bigger and better. At AlphaConstruction we build with those who follow a vision, not a path.",
         src:
@@ -160,7 +172,7 @@ export default {
       {
         title: "Your vision - Our mission",
         text:
-          "To build an everlasting environment of trust with our clients and team members that will foster customer loyalty by delivering superior service and quality projects.",
+          "Our commitment to excellence and continous improvement, to building lasting relationships with our clients, and to the team members who create your vision, are the guiding principles that assure successful outcomes on every project we build.",
         src:
           "https://web.distran.com/hs-fs/hub/48397/file-14362921-jpg/images/poles_in_kettle_1.jpg"
       }
