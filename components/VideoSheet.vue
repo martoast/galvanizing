@@ -4,8 +4,8 @@
       <v-container>
 
         <SectionHeader
-          sub-header="Why Our SEO Services?"
-          header="Mastering Organic Growth"
+          sub-header="Why Our Galvanizing Services?"
+          header="North American Galvanizing Industries"
         />
         <v-row
           align="center"
@@ -20,13 +20,12 @@
             <div class="ma-12">
               <v-row justify="center">
                 <h2 class="mb-4 headline">
-                  Our SEO Keyword Research Process<br />
+                  Quality is our priority
+                  <br />
                 </h2>
 
                 <p class="subtitle-1">
-                  As an SEO and keyword research company, we rely on the industry-leading SEO software to conduct rigorous and detailed keyword research.
-                  The tools we work with include Ahrefs, Google Keyword Planner, SEMRush, MozPro and others.
-                  We look closely at your competition to identify organic keywords they rank for as well as SEO strategies they implement. We compare how your website stacks up to these strategies and identify areas for improvement.
+                  Our galvanizing processes are stringently managed and monitored at every stage of operation. We continue to invest in new technologies, finishing services, and processes to further enhance our offering to fabricators and structural steel construction industry.
                 </p>
 
                 <v-btn

@@ -2,7 +2,7 @@
   <div>
     <v-app-bar
       v-scroll="onScroll"
-      :color="!isScrolling ? 'transparent' : 'rgba(66, 66, 66, .9)'"
+      color="rgba(66, 66, 66)"
       :hide-on-scroll="$vuetify.breakpoint.smAndDown"
       app
       elevate-on-scroll

@@ -3,12 +3,11 @@
 
     <v-container
       id="goals"
-      class="py-5"
       tag="section"
     >
       <SectionHeader
-        header="shit"
-        sub-header="WE OFFER YOU"
+        header="North American Galvanizing Industries"
+        sub-header="Our Services"
       />
 
       <v-row>
@@ -37,7 +36,7 @@
               class="pb-5 pt-3"
               v-text="feature.text"
             />
-            <v-btn>Explore Service</v-btn>
+
           </v-card>
         </v-col>
       </v-row>
@@ -51,7 +50,10 @@
       class="py-5"
       tag="section"
     >
-      <heading>Testimonials</heading>
+      <SectionHeader
+        header="North American Galvanizing"
+        sub-header="Listen to what our clients had to say!"
+      />
 
       <v-row>
         <v-col
@@ -73,8 +75,9 @@
     >
       <v-parallax
         contain
-        src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
+        src="https://galco.ie/wp-content/uploads/2016/08/Hot-dip-galvanizing-in-action.jpg"
       >
+        >
         <v-overlay
           absolute
           class="px-3"
@@ -88,41 +91,7 @@
       </v-parallax>
     </v-container>
 
-    <v-container
-      id="why-us"
-      class="px-0 py-12 mb-n9 grey lighten-3"
-      fluid
-      tag="section"
-    >
-      <heading>Get a Quote <span class="primary--text">Today</span></heading>
-
-      <v-row justify="center">
-        <v-col
-          cols="12"
-          sm="6"
-          md="4"
-        >
-          <v-text-field
-            hide-details
-            label="Email"
-            solo
-            color="secondary"
-            outlined
-            single-line
-            flat
-          >
-            <template v-slot:append>
-              <v-btn color="primary">
-                send
-              </v-btn>
-            </template>
-          </v-text-field>
-        </v-col>
-      </v-row>
-    </v-container>
-    <v-container>
-      <NetlifyForm />
-    </v-container>
+    <Contact />
 
   </div>
 </template>
@@ -144,7 +113,8 @@ export default {
     Testimonial: () => import("@/components/Testimonial"),
     NetlifyForm: () => import("@/components/netlify-form"),
     SectionHeader: () => import("@/components/SectionHeader"),
-    VideoSheet: () => import("@/components/VideoSheet")
+    VideoSheet: () => import("@/components/VideoSheet"),
+    Contact: () => import("@/components/Contact")
   },
 
   data: () => ({

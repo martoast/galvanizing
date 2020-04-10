@@ -3,7 +3,10 @@
     id="services"
     class="py-5"
   >
-    <heading>Our Services</heading>
+    <SectionHeader
+      header="North American Galvanizing Industries"
+      sub-header="Explore our Services"
+    />
 
     <v-container>
       <v-row
@@ -31,7 +34,7 @@
             flat
             color="transparent"
           >
-            <v-card-title>Realtime Global Deployments</v-card-title>
+            <v-card-title>Lorem ipsum dolor sit amet</v-card-title>
 
             <v-card-text>
               Te dolor consul mei, etiam molestie indoctum usu ad, qui inermis eleifend an. Pro iriure alienum incorrupte ex, cu diceret moderatius mei. Te corrumpit posidonium sit, in cum nonumy utamur. Usu impedit patrioque vituperatoribus ei, cu voluptua nominati philosophia mel. Sea at legendos percipitur, nulla dicant convenire ne duo. Veniam epicuri vis cu, ea pri alii ceteros fierent.
@@ -66,7 +69,7 @@
             color="transparent"
             flat
           >
-            <v-card-title>Focus On What Drives Your Business</v-card-title>
+            <v-card-title>Lorem ipsum dolor sit amet</v-card-title>
 
             <v-card-text>
               <p>
@@ -110,7 +113,7 @@
             flat
             color="transparent"
           >
-            <v-card-title>Business Development That Just Works</v-card-title>
+            <v-card-title>Lorem ipsum dolor sit amet</v-card-title>
 
             <v-card-text>
               <p>
@@ -124,19 +127,13 @@
         </v-col>
       </v-row>
 
-      <v-row
-        align="center"
-        justify="center"
-        class="py-5 px-3"
-      >
-        <testimonial :testimonial="testimonial" />
-      </v-row>
     </v-container>
   </section>
 </template>
 
 <script>
 export default {
+  layout: "services",
   metaInfo: {
     title: "Services",
     meta: [
@@ -149,7 +146,8 @@ export default {
 
   components: {
     Heading: () => import("@/components/Heading"),
-    Testimonial: () => import("@/components/Testimonial")
+    Testimonial: () => import("@/components/Testimonial"),
+    SectionHeader: () => import("@/components/SectionHeader")
   },
 
   data: () => ({

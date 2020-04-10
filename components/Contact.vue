@@ -3,7 +3,10 @@
     id="contact"
     class="py-5"
   >
-    <heading>Contact Us</heading>
+    <SectionHeader
+      header="North American Galvanizing Industries"
+      sub-header="Contact us"
+    />
 
     <v-container>
       <v-row>
@@ -148,7 +151,6 @@
 
 <script>
 export default {
-  layout: "services",
   metaInfo: {
     title: "Contact",
     meta: [
@@ -160,7 +162,8 @@ export default {
   },
 
   components: {
-    Heading: () => import("@/components/Heading")
+    Heading: () => import("@/components/Heading"),
+    SectionHeader: () => import("@/components/SectionHeader")
   }
 };
 </script>
