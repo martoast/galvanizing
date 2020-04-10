@@ -1,13 +1,13 @@
 <template>
   <img
-    class="VuetifyLogo"
+    class="BigLogo"
     alt="Vuetify Logo"
     src="~/assets/galvanizing2.png"
   >
 </template>
 
 <style>
-.VuetifyLogo {
+.BigLogo {
   width: 300px;
 }
 </style>

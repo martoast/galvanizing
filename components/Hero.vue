@@ -17,6 +17,10 @@
           dark
           max-width="500"
         >
+          <div class="hidden-md-and-up">
+            <BigLogo />
+          </div>
+
           <h1
             class="mb-4"
             :class="$vuetify.breakpoint.mdAndUp ? 'display-2' : 'display-1'"
@@ -67,7 +71,9 @@
 </template>
 
 <script>
+import BigLogo from "~/components/BigLogo.vue";
 export default {
+  components: { BigLogo },
   computed: {
     namespace() {
       return this.$route.name;
