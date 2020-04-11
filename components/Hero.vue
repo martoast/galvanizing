@@ -1,9 +1,9 @@
 <template>
   <v-img
     v-if="namespace"
-    src="https://galco.ie/wp-content/uploads/2016/08/Hot-dip-galvanizing-in-action.jpg"
+    :src="this.src"
     aspect-ratio="4.0"
-    gradient="to top, rgba(160, 90, 70, .85), rgba(30, 40, 30, .85)"
+    gradient="to top, rgba(160, 90, 70, .35), rgba(30, 40, 30, 0.6)"
     height="100vh"
   >
     <v-container fill-height>
@@ -17,9 +17,9 @@
           dark
           max-width="500"
         >
-          <div class="hidden-md-and-up">
+          <!-- <div class="hidden-md-and-up">
             <BigLogo />
-          </div>
+          </div> -->
 
           <h1
             class="mb-4"
@@ -73,7 +73,11 @@
 <script>
 import BigLogo from "~/components/BigLogo.vue";
 export default {
+  data: () => ({
+    src: require("@/assets/head-northamericangalvanizingindustries.png")
+  }),
   components: { BigLogo },
+
   computed: {
     namespace() {
       return this.$route.name;
