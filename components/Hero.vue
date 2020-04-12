@@ -25,11 +25,12 @@
             class="mb-4"
             :class="$vuetify.breakpoint.mdAndUp ? 'display-2' : 'display-1'"
           >
-            North American Galvaniznig Industries
+            North American Galvanizing Industries LLC
+
           </h1>
 
           <p class="title font-weight-light">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            Providing superior quality and Services
           </p>
 
           <div class="py-4" />

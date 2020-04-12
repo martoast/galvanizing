@@ -25,7 +25,7 @@
                 </h2>
 
                 <p class="subtitle-1">
-                  Our galvanizing processes are stringently managed and monitored at every stage of operation. We continue to invest in new technologies, finishing services, and processes to further enhance our offering to fabricators and structural steel construction industry.
+                  In North American Galvanizing Industries LLC our procedures are tracked and stringently managed at every stage of the operation. Every day we continue to invest and develop new technology and procedures to excel and enhance our offering to steel building markets and fabricators in the industry.
                 </p>
 
                 <v-btn

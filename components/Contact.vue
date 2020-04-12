@@ -21,7 +21,8 @@
                   cols="12"
                   class="mb-4 grey--text"
                 >
-                  Call or submit our online form to request an estimate or for general questions about U.S. Certified Contractors and our services. We look forward to serving you!
+                  Call or submit our online form to request an estimate or for general questions about North American Galvanizing Industries LLC and our services. We look forward to serving you!
+
                 </v-col>
                 <v-col
                   cols="12"
@@ -108,8 +109,10 @@
               >
                 <v-card-title>Mailing Address</v-card-title>
                 <v-card-text>
-                  <div>2620 Amternest Parkway</div>
-                  <div>El Paso TX 79938</div>
+                  <div>North American Galvanizing Ind. P.O. Box 121356
+
+                  </div>
+                  <div>Chula Vista, CA 91912</div>
                   <div>United States</div>
                 </v-card-text>
               </v-col>
@@ -121,13 +124,12 @@
               >
                 <v-card-title>Contact Info</v-card-title>
                 <v-card-text>
-                  <div>+1 (321) 383-4531</div>
+                  <div>+1 (619) 592-9582</div>
+                  <div> Fax : +1 (619) 810-0810</div>
                   <div>
-                    <a href="#">contact@alphaconstruction.com</a>
+                    <a href="#">info@galvanizing-northamerican.com</a>
                   </div>
-                  <div>
-                    <a href="#">@alphaconstruction</a>
-                  </div>
+
                 </v-card-text>
               </v-col>
 

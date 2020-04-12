@@ -5,15 +5,8 @@
     padless
   >
     <v-row class="ma-0">
-      <v-col
-        class="blue-grey darken-3 pa-5"
-        cols="12"
-        md="3"
-      >
-        <h3 class="headline mb-3">
-          North American Galvanizing Industries
-        </h3>
-        <ul class="body-1 pl-0">
+
+      <!-- <ul class="body-1 pl-0">
           <li
             v-for="(c, i) in company"
             :key="i"
@@ -25,9 +18,9 @@
               v-text="c"
             />
           </li>
-        </ul>
-      </v-col>
-      <v-col
+        </ul> -->
+
+      <!-- <v-col
         class="blue-grey darken-2 pa-5"
         cols="12"
         md="9"
@@ -46,7 +39,7 @@
             />
           </v-col>
         </v-row>
-      </v-col>
+      </v-col> -->
 
       <v-col
         class="text-center blue-grey darken-4 pa-3"

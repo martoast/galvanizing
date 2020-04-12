@@ -17,14 +17,21 @@
               :class="[$vuetify.breakpoint.mdAndUp ? 'display-1' : 'headline']"
               class="mb-4"
             >
-              Lorem ipsum dolor sit amet<br />
+              About us<br />
             </h2>
 
             <p class="subtitle-1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              North American Galvanizing Industries LLC provides superior
+              quality and outstanding service from our staff.
+
             </p>
             <p class="mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Our Galvanizing plant can manage any size project with our two oversized
+              kettles measuring 30 feet and 60 feet
+
+            </p>
+            <p class="mb-5">We know how important time is for our clients and due to our high capacity and dedicated team members, our turn around times are fast and efficient with competitive prices with excellent service.
+
             </p>
 
             <v-btn

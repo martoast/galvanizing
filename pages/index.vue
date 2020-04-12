@@ -126,23 +126,23 @@ export default {
     },
     features: [
       {
-        title: "Hot drip galvanizing",
+        title: "Hot dip galvanizing",
         text:
-          "Every achievement begins with a vision. It is built on a foundation of creative concepts and dreams to become something bigger and better. At AlphaConstruction we build with those who follow a vision, not a path.",
+          "Hot-dip galvanizing is the most effective form of galvanizing which involves the process of coating iron and steel with a molting layer of zinc which protects against corrosion.",
         src:
           "https://az276020.vo.msecnd.net/valmontproduction/webforge-css/galvanising-plant.jpg?sfvrsn=2151fb93_2"
       },
       {
-        title: "Relentless pursuit of your vision",
+        title: "Efficiency and Quality",
         text:
-          "Our commitment to excellence and continous improvement, to building lasting relationships with our clients, and to the team members who create your vision, are the guiding principles that assure successful outcomes on every project we build.",
+          "North American Galvanizing Industries LLC counts including both 30 feet and a 60 feet Kettles, allowing us to supply galvanizing solutions for your most demanding jobs.",
         src:
           "https://rrgi.ca/wp-content/gallery/galvanizing-portfolio/IMG_2512-1.jpg"
       },
       {
-        title: "Your vision - Our mission",
+        title: "Where We Operate",
         text:
-          "Our commitment to excellence and continous improvement, to building lasting relationships with our clients, and to the team members who create your vision, are the guiding principles that assure successful outcomes on every project we build.",
+          "We are based off San Diego County and  Can offer solutions in Santa Clarita, Imperial Valley, Riverside, San Bernardino, Orange County, Los Angeles, Ventura and Santa Barbara Counties.",
         src:
           "https://web.distran.com/hs-fs/hub/48397/file-14362921-jpg/images/poles_in_kettle_1.jpg"
       }

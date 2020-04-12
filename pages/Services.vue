@@ -34,10 +34,10 @@
             flat
             color="transparent"
           >
-            <v-card-title>Lorem ipsum dolor sit amet</v-card-title>
+            <v-card-title>Hot-Dip Coating </v-card-title>
 
             <v-card-text>
-              Te dolor consul mei, etiam molestie indoctum usu ad, qui inermis eleifend an. Pro iriure alienum incorrupte ex, cu diceret moderatius mei. Te corrumpit posidonium sit, in cum nonumy utamur. Usu impedit patrioque vituperatoribus ei, cu voluptua nominati philosophia mel. Sea at legendos percipitur, nulla dicant convenire ne duo. Veniam epicuri vis cu, ea pri alii ceteros fierent.
+              “Hot-dip galvanizing is a proven technology that combats corrosion for decades without the need for maintenance.”-American Galvanizers Association (Lets backlink to their website) This practice is essentially simple and delivers a definite advantage over other rust protection techniques. As the steel is dipped in the kettle, the iron from the steel metallurgically responds with the molten zinc to create a tightly-bonded metal coating that offers superior rust protection to steel. At North American Galvanizing Industries LLC, we process our work through 5 different preparation pools to allow the steel to bond to the purest zinc coating.
             </v-card-text>
           </v-card>
         </v-col>
@@ -69,20 +69,15 @@
             color="transparent"
             flat
           >
-            <v-card-title>Lorem ipsum dolor sit amet</v-card-title>
+            <v-card-title>Efficiency in Delivering
+            </v-card-title>
 
             <v-card-text>
               <p>
-                Lorem ipsum dolor sit amet, ea mutat tation constituam per, mei error ocurreret definiebas ne. Te harum constituto inciderint his. Vis no delenit mediocritatem. His et debet possim perpetua, assum argumentum ne quo, constituto eloquentiam sea ne. Ne has ludus graecis fabellas.
+                Our quick Turn around times are due to our galvanizing plants high capacity and efficient logistics, when the job needs to get done quickly you can count on us to get it done without compromising quality.
+
               </p>
 
-              <p>
-                Ei est iriure partiendo, ius falli tritani accumsan ad, mea altera eripuit fierent ut. Te quem legere fastidii ius. Ei vis quod qualisque, ignota nemore cotidieque mea eu. Scripta labitur ei vel, mei case quidam corpora no, est dico sale utroque ne. Eu erroribus delicatissimi eum, ut quem veri tincidunt vim.
-              </p>
-
-              <p>
-                Velit eruditi an est, cu eius graeci sed. Vel ei dolorem sapientem temporibus. No his omnes meliore maiestatis, mei iisque molestiae gubergren ex. Usu placerat liberavisse et, eam dicta blandit evertitur an. Ea vim fabellas indoctum maiestatis.
-              </p>
             </v-card-text>
           </v-card>
         </v-col>
