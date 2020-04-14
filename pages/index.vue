@@ -6,7 +6,7 @@
       tag="section"
     >
       <SectionHeader
-        header="North American Galvanizing Industries"
+        header="North American Galvanizing Industries LLC"
         sub-header="Our Services"
       />
 
@@ -46,7 +46,7 @@
     </section>
     <section class="pt-6">
       <SectionHeader
-        header="North American Galvanizing"
+        header="North American Galvanizing LLC"
         sub-header="Quality is our Priority"
         text="North American Galvanizing Industries LLC procedures are tracked from customer pick up to delivery, once at our plant stringent quality control measures are followed at every stage of the process. We continue to invest and develop in new technology and procedures to enhance our ability to provide to our customers state of the art galvanizing services."
       />

@@ -3,6 +3,7 @@
     class="BigLogo"
     alt="Vuetify Logo"
     src="~/assets/galvanizing2.png"
+    to='/'
   >
 </template>
 

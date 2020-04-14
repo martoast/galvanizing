@@ -4,7 +4,7 @@
     class="py-5"
   >
     <SectionHeader
-      header="North American Galvanizing Industries"
+      header="North American Galvanizing Industries LLC"
       sub-header="Contact us"
       text="Call or submit our online form to request an estimate or for general questions about North American Galvanizing Industries LLC and our services. We look forward to serving you!"
     />

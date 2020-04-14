@@ -6,7 +6,7 @@
         <div class="py-2" />
         <SectionHeader
           sub-header="About us"
-          header="North American Galvanizing"
+          header="North American Galvanizing LLC"
         />
         <v-row>
           <v-col
@@ -27,7 +27,7 @@
             </p>
             <p class="mb-5">
               Our Galvanizing plant can manage any size project with our two oversized
-              kettles measuring 30 feet and 60 feet
+              kettles measuring 30 ft and 55 ft.
 
             </p>
             <p class="mb-5">We know how important time is for our clients and due to our high capacity and dedicated team members, our turn around times are fast and efficient with competitive prices with excellent service.
@@ -65,12 +65,16 @@
 
       <VideoSheet />
     </section>
+    <section>
+      <Contact />
+    </section>
 
   </div>
 </template>
 <script>
 import SectionHeader from "~/components/SectionHeader.vue";
 import VideoSheet from "~/components/VideoSheet.vue";
+import Contact from "~/components/Contact.vue";
 export default {
   head() {
     return {
@@ -89,11 +93,12 @@ export default {
 
   components: {
     SectionHeader,
-    VideoSheet
+    VideoSheet,
+    Contact
   },
 
   data: () => ({
-    image: require("~/assets/galvanising-plant.jpg")
+    image: require("~/assets/About.jpg")
   }),
 
   computed: {}
