@@ -120,7 +120,7 @@ export default {
       {
         title: "Efficiency and Quality",
         text:
-          "North American Galvanizing Industries LLC counts including both 30 ft and a 55 ft feet Kettle, allowing us to supply galvanizing solutions for your most demanding jobs.",
+          "North American Galvanizing Industries LLC counts with both a 29.6 ft long, 6.7 ft wide and 3.5 ft deep Kettle, and a 55.9 ft long , 4 ft wide and 11.6 ft deep kettle; allowing us to supply galvanizing solutions for your most demanding jobs.",
         src: require("@/assets/Columb2.jpg")
       },
       {
