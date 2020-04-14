@@ -22,35 +22,21 @@
         </v-btn>
       </v-toolbar-items>
 
-      <v-icon
-        @click.stop="drawer = !drawer"
-        class="hidden-md-and-up"
-      >mdi-menu</v-icon>
-
+      <v-icon @click.stop="drawer = !drawer" class="hidden-md-and-up"
+        >mdi-menu</v-icon
+      >
     </v-app-bar>
 
-    <v-navigation-drawer
-      v-model="drawer"
-      :right="right"
-      temporary
-      fixed
-    >
+    <v-navigation-drawer v-model="drawer" :right="right" temporary fixed>
       <v-list>
-        <v-list-item
-          v-for="item in Menuitems"
-          :key="item.title"
-          link
-        >
-
+        <v-list-item v-for="(item, i) in items" :key="i" :to="item.to" link>
           <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title>{{ item.text }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-
   </div>
-
 </template>
 
 <script>
