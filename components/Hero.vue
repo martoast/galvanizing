@@ -1,11 +1,5 @@
 <template>
-  <v-img
-    v-if="namespace"
-    :src="this.src"
-    aspect-ratio="4.0"
-    height="100vh"
-  >
-
+  <v-img v-if="namespace" :src="this.src" aspect-ratio="4.0" height="100vh">
   </v-img>
 </template>
 

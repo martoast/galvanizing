@@ -5,7 +5,7 @@
 
         <SectionHeader
           sub-header="Why Our Galvanizing Services?"
-          header="North American Galvanizing Industries"
+          header="North American Galvanizing Industries LLC"
         />
         <v-row
           align="center"
@@ -48,18 +48,31 @@
             cols="12"
             md="5"
           >
+            <!-- <div>
+              <iframe
+                src="https://player.vimeo.com/video/407371912"
+                width="640"
+                height="360"
+                frameborder="0"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+              ></iframe>
+              <p><a href="https://vimeo.com/407371912">North American Galvanizing Industries LLC</a> from <a href="https://vimeo.com/user112744555">Ivan Eduardo Martinez</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+            </div> -->
 
             <div align="center">
               <v-container>
 
                 <iframe
                   style="top:55px; left:0; bottom:0; right:0; height: 400px; border:none; margin:0; padding:0; z-index:999999;"
-                  src="https://player.vimeo.com/video/404896466"
+                  src="https://player.vimeo.com/video/407371912"
                   frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                   width="100%"
-                ></iframe>
+                >
+                  <p><a href="https://vimeo.com/user112744555"></a></p>
+                </iframe>
 
               </v-container>
 
