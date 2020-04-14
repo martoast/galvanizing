@@ -32,15 +32,14 @@
                   <v-text-field label="Subject" outlined />
                 </v-col>
 
-                <v-col cols="12">
+                <!-- <v-col cols="12">
                   <v-textarea label="Message" outlined />
-                </v-col>
+                </v-col> -->
 
                 <v-col cols="12">
                   <v-btn
                     :block="$vuetify.breakpoint.xsOnly"
                     color="primary"
-                    depressed
                     x-large
                   >
                     Send Message
