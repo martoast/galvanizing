@@ -6,6 +6,7 @@
     <SectionHeader
       header="North American Galvanizing Industries"
       sub-header="Contact us"
+      text="Call or submit our online form to request an estimate or for general questions about North American Galvanizing Industries LLC and our services. We look forward to serving you!"
     />
 
     <v-container>
@@ -17,13 +18,13 @@
           <v-form>
             <v-container pa-0>
               <v-row>
-                <v-col
+                <!-- <v-col
                   cols="12"
                   class="mb-4 grey--text"
                 >
                   Call or submit our online form to request an estimate or for general questions about North American Galvanizing Industries LLC and our services. We look forward to serving you!
 
-                </v-col>
+                </v-col> -->
                 <v-col
                   cols="12"
                   md="6"

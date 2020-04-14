@@ -45,13 +45,13 @@ export default {
 </script>
 
 <style lang="sass">
-  .v-testimonial
-    margin: 0 auto
-    max-width: 450px
+.v-testimonial
+  margin: 0 auto
+  max-width: 450px
 
-    .v-testimonial__divider
-      max-width: 120px
-      border-width: 2px
+  .v-testimonial__divider
+    max-width: 120px
+    border-width: 2px
 
     .v-testimonial__blurb
       line-height: 2

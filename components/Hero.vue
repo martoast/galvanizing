@@ -75,7 +75,7 @@
 import BigLogo from "~/components/BigLogo.vue";
 export default {
   data: () => ({
-    src: require("@/assets/head-northamericangalvanizingindustries.png")
+    src: require("@/assets/GalvanizingHero.png")
   }),
   components: { BigLogo },
 
