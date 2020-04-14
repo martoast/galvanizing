@@ -1,11 +1,5 @@
 <template>
-  <v-img
-    v-if="namespace"
-    :src="this.src"
-    aspect-ratio="4.0"
-    height="100vh"
-  >
-
+  <v-img v-if="namespace" :src="this.src" aspect-ratio="4.0" height="100vh">
   </v-img>
 </template>
 
@@ -13,7 +7,7 @@
 import BigLogo from "~/components/BigLogo.vue";
 export default {
   data: () => ({
-    src: require("@/assets/GalvanizingHero.png")
+    src: require("@/assets/About.jpg")
   }),
   components: { BigLogo },
 
