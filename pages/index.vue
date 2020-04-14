@@ -1,10 +1,6 @@
 <template>
   <div id="home">
-
-    <v-container
-      id="goals"
-      tag="section"
-    >
+    <v-container id="goals" tag="section">
       <SectionHeader
         header="North American Galvanizing Industries LLC"
         sub-header="Our Services"
@@ -19,24 +15,14 @@
           sm="6"
           md="4"
         >
-          <v-card
-            outlined
-            max-width="100%"
-          >
-            <v-img
-              :src="feature.src"
-              height="300"
-            />
+          <v-card outlined max-width="100%">
+            <v-img :src="feature.src" height="300" />
             <v-card-title
               class="align-center"
               style="min-height: 88px;"
               v-text="feature.title"
             />
-            <v-card-text
-              class="pb-5 pt-3"
-              v-text="feature.text"
-            />
-
+            <v-card-text class="pb-5 pt-3" v-text="feature.text" />
           </v-card>
         </v-col>
       </v-row>
@@ -62,23 +48,14 @@
           src="https://galco.ie/wp-content/uploads/2016/08/Hot-dip-galvanizing-in-action.jpg"
         >
           >
-          <v-overlay
-            absolute
-            class="px-3"
-            opacity=".8"
-          >
-            <testimonial
-              dark
-              :testimonial="highlightedTestimonial"
-            />
+          <v-overlay absolute class="px-3" opacity=".8">
+            <testimonial dark :testimonial="highlightedTestimonial" />
           </v-overlay>
         </v-parallax>
       </v-container>
-
     </section>
 
     <Contact />
-
   </div>
 </template>
 
@@ -97,7 +74,7 @@ export default {
   components: {
     Heading: () => import("@/components/Heading"),
     Testimonial: () => import("@/components/Testimonial"),
-    NetlifyForm: () => import("@/components/netlify-form"),
+
     SectionHeader: () => import("@/components/SectionHeader"),
     VideoSheet: () => import("@/components/VideoSheet"),
     Contact: () => import("@/components/Contact")
