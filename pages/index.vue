@@ -107,8 +107,8 @@ export default {
     highlightedTestimonial: {
       blurb:
         "Our project at Sony Studios was due on December 26, North American Galvanizing LLC Services was able to provide us with top quality services on 4 days notice even over the holidays, no other provider would even commit to less than three weeks. Their rapid production saved us from a very expensive delay, quality and customer service was top notch. ",
-      person: "Joe Malonagi",
-      title: "General Manager, Springfield Tower"
+      person: "Luis Robles",
+      title: "North American Galvanizing LLC"
     },
     features: [
       {
@@ -120,7 +120,7 @@ export default {
       {
         title: "Efficiency and Quality",
         text:
-          "North American Galvanizing Industries LLC counts including both 30 feet and a 60 feet Kettles, allowing us to supply galvanizing solutions for your most demanding jobs.",
+          "North American Galvanizing Industries LLC counts including both 30 ft and a 55 ft feet Kettle, allowing us to supply galvanizing solutions for your most demanding jobs.",
         src: require("@/assets/Columb2.jpg")
       },
       {

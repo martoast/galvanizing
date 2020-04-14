@@ -136,7 +136,7 @@
 
               <v-col cols="12">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6996653.320726327!2d-104.56654057311077!3d31.100430144601546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864070360b823249%3A0x16eb1c8f1808de3c!2sTexas!5e0!3m2!1sen!2sus!4v1563207206020!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6720.571254558503!2d-117.01872687504873!3d32.625216324072255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d94dfce944ec61%3A0xd297ae31810f003!2sChula%20Vista%2C%20CA%2091912!5e0!3m2!1sen!2sus!4v1586839553120!5m2!1sen!2sus"
                   width="100%"
                   height="400"
                   frameborder="0"
